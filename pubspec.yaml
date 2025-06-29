@@ -1,0 +1,29 @@
+name: rick_and_morty_explorer
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+  flutter: ">=3.29.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  core:
+    path: core
+  navigation:
+    path: navigation
+  domain:
+    path: domain
+  data:
+    path: data
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
